@@ -23,7 +23,7 @@
 			title: 'BabbleFish',
 			desc: 'Hackathon project that summarizes, translates, and semantically searches text channels',
 			link: 'https://devpost.com/software/babelfetch',
-			info: "it lost the Gemini track to a project that didn't use gemini"
+			info: "it lost the Gemini track to a project that didn't use Gemini"
 		},
 		{
 			title: 'NameBot',

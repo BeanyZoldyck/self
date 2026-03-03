@@ -35,8 +35,9 @@
 			<p class="text-lg text-purple-400">
 				i am <a href="https://www.16personalities.com/" class="text-purple-700" target="_blank"
 					>INTJ</a
-				>, relatively bearish on AI, and 22.5
-				<a href="https://ffmicalculator.org/" class="text-purple-700" target="_blank">FFMI</a>.
+				>, relatively bearish on AI, 22.5
+				<a href="https://ffmicalculator.org/" class="text-purple-700" target="_blank">FFMI</a>, and
+				my favorite color is purple/black (if you couldn't tell).
 			</p>
 		</div>
 
