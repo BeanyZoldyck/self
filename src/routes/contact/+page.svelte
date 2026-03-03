@@ -5,7 +5,7 @@
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="mb-2 text-lg text-purple-400">Feel free to reach out:</p>
 			<a href="mailto:hello@example.com" class="text-lg text-purple-300 hover:text-purple-200">
-				hello@example.com
+				cezeoke@umich.edu
 			</a>
 		</div>
 
@@ -17,21 +17,21 @@
 					target="_blank"
 					class="block text-purple-300 hover:text-purple-200"
 				>
-					github.com/yourusername
+					github.com/BeanyZoldyck
 				</a>
 				<a
-					href="https://linkedin.com/chukaez"
+					href="https://linkedin.com/in/chukaez"
 					target="_blank"
 					class="block text-purple-300 hover:text-purple-200"
 				>
-					linkedin.com/in/yourusername
+					linkedin.com/in/chukaez
 				</a>
 				<a
 					href="https://twitter.com/tom7"
 					target="_blank"
 					class="block text-purple-300 hover:text-purple-200"
 				>
-					twitter.com/yourusername
+					*my* twitter
 				</a>
 			</div>
 		</div>

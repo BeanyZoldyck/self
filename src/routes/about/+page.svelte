@@ -31,6 +31,15 @@
 			</p>
 		</div>
 
+		<div class="border-l-2 border-purple-700 pl-6">
+			<p class="text-lg text-purple-400">
+				I am <a href="https://www.16personalities.com/" class="text-purple-700" target="_blank"
+					>INTJ</a
+				>, bearish on AI, and 22.5
+				<a href="https://ffmicalculator.org/" class="text-purple-700" target="_blank">FFMI</a>.
+			</p>
+		</div>
+
 		<h2 class="mt-12 mb-6 text-2xl font-bold text-purple-300">skills</h2>
 		<div class="grid gap-3">
 			<Skill skill="Python"></Skill>
