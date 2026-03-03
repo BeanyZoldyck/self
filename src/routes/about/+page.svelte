@@ -7,18 +7,18 @@
 
 	<div class="space-y-6">
 		<div class="border-l-2 border-purple-700 pl-6">
-			<p class="text-lg text-purple-400">Hello! I'm a programmer who loves making things.</p>
+			<p class="text-lg text-purple-400">i'm a programmer who loves making things.</p>
 		</div>
 
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="text-lg text-purple-400">
-				I am self taught in programming, and most recently have gotten into webdev (not react).
+				i am self taught in programming, and most recently have gotten into webdev (not react).
 			</p>
 		</div>
 
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="text-lg text-purple-400">
-				My hobbies include <a
+				my hobbies include <a
 					href="https://youtube.com/shorts/H70yENQtb2w"
 					class="text-purple-700"
 					target="_blank"
@@ -33,9 +33,9 @@
 
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="text-lg text-purple-400">
-				I am <a href="https://www.16personalities.com/" class="text-purple-700" target="_blank"
+				i am <a href="https://www.16personalities.com/" class="text-purple-700" target="_blank"
 					>INTJ</a
-				>, bearish on AI, and 22.5
+				>, relatively bearish on AI, and 22.5
 				<a href="https://ffmicalculator.org/" class="text-purple-700" target="_blank">FFMI</a>.
 			</p>
 		</div>
