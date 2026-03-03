@@ -1,0 +1,26 @@
+<section class="py-20">
+	<h1 class="mb-8 text-4xl font-bold text-purple-300">projects</h1>
+
+	<div class="space-y-8">
+		<div class="border border-purple-900 p-6 transition-colors hover:border-purple-700">
+			<h2 class="mb-2 text-2xl font-bold text-purple-200">project-one</h2>
+			<p class="mb-4 text-purple-400">
+				A brief description of what this project does and why it's interesting.
+			</p>
+		</div>
+
+		<div class="border border-purple-900 p-6 transition-colors hover:border-purple-700">
+			<h2 class="mb-2 text-2xl font-bold text-purple-200">project-two</h2>
+			<p class="mb-4 text-purple-400">
+				Another project with a different purpose and implementation details.
+			</p>
+		</div>
+
+		<div class="border border-purple-900 p-6 transition-colors hover:border-purple-700">
+			<h2 class="mb-2 text-2xl font-bold text-purple-200">project-three</h2>
+			<p class="mb-4 text-purple-400">
+				A third project showcasing different technologies and approaches.
+			</p>
+		</div>
+	</div>
+</section>

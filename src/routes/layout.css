@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+:global(body) {
+	@apply bg-black font-mono text-purple-400;
+	margin: 0;
+}
