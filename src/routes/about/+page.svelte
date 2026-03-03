@@ -1,3 +1,7 @@
+<script>
+	import Skill from './skill.svelte';
+</script>
+
 <section class="py-20">
 	<h1 class="mb-8 text-4xl font-bold text-purple-300">about</h1>
 
@@ -13,24 +17,12 @@
 		</div>
 
 		<h2 class="mt-12 mb-6 text-2xl font-bold text-purple-300">skills</h2>
-
 		<div class="grid gap-3">
-			<div class="flex items-center gap-2">
-				<span class="text-purple-500">→</span>
-				<span class="text-purple-400">Python</span>
-			</div>
-			<div class="flex items-center gap-2">
-				<span class="text-purple-500">→</span>
-				<span class="text-purple-400">C</span>
-			</div>
-			<div class="flex items-center gap-2">
-				<span class="text-purple-500">→</span>
-				<span class="text-purple-400">TypeScript</span>
-			</div>
-			<div class="flex items-center gap-2">
-				<span class="text-purple-500">→</span>
-				<span class="text-purple-400">SvelteKit</span>
-			</div>
+			<Skill skill="Python"></Skill>
+			<Skill skill="C"></Skill>
+			<Skill skill="Embedded Systems/Microcontrollers"></Skill>
+			<Skill skill="Typescript"></Skill>
+			<Skill skill="Machine Learning"></Skill>
 		</div>
 	</div>
 </section>
