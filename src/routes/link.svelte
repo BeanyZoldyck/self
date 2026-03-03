@@ -1,11 +1,11 @@
-<script>
+<script lang="ts">
 	import { resolve } from '$app/paths';
-	export let thing;
+	export let thing: 'about' | 'blog' | 'contact' | 'projects';
 </script>
 
 <a
-	href={resolve('/about')}
+	href={resolve(`/${thing}`)}
 	class="border border-purple-700 px-6 py-3 text-purple-300 transition-colors hover:border-purple-500"
 >
-	[about]
+	[{thing}]
 </a>
