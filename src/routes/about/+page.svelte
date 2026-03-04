@@ -1,5 +1,14 @@
 <script>
 	import Skill from './skill.svelte';
+  let skills = [
+
+			"Programming (Python/C/Typescript)",
+			"Embedded Systems/Microcontrollers",
+			"Math (mostly Calculus)",
+			"Machine Learning",
+			"SvelteKit",
+			"Lifing (Bench Press & Deadlift)",
+  ]
 </script>
 
 <section class="py-20">
@@ -12,7 +21,7 @@
 
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="text-lg text-purple-400">
-				i am self taught in programming, first learning python at 13 and most recently have gotten into webdev (not react).
+				i am self taught in programming, first learning python in highscool and most recently have gotten into webdev (not react).
 			</p>
 		</div>
 
@@ -46,17 +55,12 @@
 			</p>
 		</div>
 
-		<h2 class="mt-12 mb-6 text-2xl font-bold text-purple-300">skills</h2>
+		<h2 class="mt-12 mb-6 text-2xl font-bold text-purple-300">passions</h2>
 		<div class="grid gap-3">
-			<Skill skill="Python"></Skill>
-			<Skill skill="C"></Skill>
-			<Skill skill="Embedded Systems/Microcontrollers"></Skill>
-			<Skill skill="Typescript"></Skill>
-			<Skill skill="Calculus"></Skill>
-			<Skill skill="Machine Learning"></Skill>
-			<Skill skill="SvelteKit"></Skill>
-			<Skill skill="Bench Press"></Skill>
-			<Skill skill="Deadlift"></Skill>
+      {#each skills.sort(() => Math.random()-0.5) as skill}
+        <Skill {skill}></Skill>
+
+{/each}
 		</div>
 	</div>
 </section>
