@@ -1,1 +1,5 @@
-TEST CONTENT
+I finally got around to making a personal dev site. I'm no (good) frontend dev, so it may be a little underwhelming, but it's mine. 
+\n
+As its a personal endeavor, I decided to not use AI, and make this the old fashioned way. It was fun doing so as I don't think I've made a front end without vibe coding in over a year.
+I was captivated to make this when I was applying for grizzhacks7, and I had all the optional badges: github, devpost, linkedin, but still--no site.
+\n I needed a better place to store my ramblings in a more, so it was inevitable.

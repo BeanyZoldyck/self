@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	export let title;
 	export let header;
 	export let link;
@@ -11,10 +12,14 @@
 	<h1 class="mb-8 text-4xl font-bold text-purple-300">{title}</h1>
 
 	<div class="space-y-6">
-		<div class="border-l-2 border-purple-700 pl-6">
-			<p class="text-lg text-purple-400">{header}</p>
+		<div class="border-l-2 border-purple-800 pl-6">
+			<p class="text-lg text-purple-600">{header}</p>
 		</div>
-
-		<p class="text-white">{articles[`${link}`]}</p>
+		{#each articles[`${link}`].split('\\n') as paragraph}
+			<p class="text-white">{paragraph}</p>
+		{/each}
+	</div>
+	<div class="mt-15 border-l-2 border-purple-900 pl-6">
+		<a class="text-lg text-purple-800" href={resolve('/blog')}> ← back</a>
 	</div>
 </section>
