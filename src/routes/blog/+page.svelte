@@ -9,8 +9,8 @@
 	}
 	let blogs: Array<Blg> = [
 		{
-			title: 'Finally got around to making a personal site',
-			desc: "Can't imagine why it took so long with *my* ego",
+			title: 'finally got around to making a personal site',
+			desc: 'dont know how someone with an ego my size took this long',
 			link: 'site'
 		}
 	];

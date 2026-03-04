@@ -3,7 +3,7 @@
 
 	<div class="space-y-8">
 		<div class="border-l-2 border-purple-700 pl-6">
-			<p class="mb-2 text-lg text-purple-400">Feel free to hit me:</p>
+			<p class="mb-2 text-lg text-purple-400">feel free to hit me:</p>
 			<a href="mailto:hello@example.com" class="text-lg text-purple-300 hover:text-purple-200">
 				cezeoke@umich.edu<svg
 					fill="none"
@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="border-l-2 border-purple-700 pl-6">
-			<p class="mb-4 text-lg text-purple-400">Find me online:</p>
+			<p class="mb-4 text-lg text-purple-400">find me online:</p>
 			<div class="space-y-4">
 				<div class="group relative">
 					<a

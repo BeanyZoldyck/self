@@ -21,25 +21,25 @@
 		},
 		{
 			title: 'BabbleFish',
-			desc: 'Hackathon project that summarizes, translates, and semantically searches text channels',
+			desc: 'hckathon project that summarizes, translates, and semantically searches text channels',
 			link: 'https://devpost.com/software/babelfetch',
 			info: "it lost the Gemini track to a project that didn't use Gemini"
 		},
 		{
 			title: 'NameBot',
-			desc: 'Machine Learning library made with no libraries in python. Example predicts gender of input name',
+			desc: 'machine Learning library made with no libraries in python. example predicts gender of input name',
 			link: 'https://github.com/BeanyZoldyck/NameBot',
 			info: ''
 		},
 		{
 			title: 'GenDaBot',
-			desc: 'Model trained on ~100,000 tweets to predict the gender of the author',
+			desc: 'model trained on ~100,000 tweets to predict the gender of the author',
 			link: 'https://drive.google.com/file/d/1RiSLn5NpKlgGKRfogq2RFSQl14jVAaX4/view',
 			info: ''
 		},
 		{
 			title: 'LLM.c',
-			desc: 'Transformer architecture in C ',
+			desc: 'transformer architecture in C ',
 			link: 'https://github.com/BeanyZoldyck/llm.c',
 			info: 'WIP, currently implementing backpropagation'
 		}
