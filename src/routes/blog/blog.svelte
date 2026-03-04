@@ -1,4 +1,6 @@
 <script>
+	import { resolve } from '$app/paths';
+
 	export let title;
 	export let desc;
 	export let link;
@@ -9,5 +11,5 @@
 	<p class="mb-2 text-purple-400">
 		{desc}
 	</p>
-	<a href={link} class="text-purple-700">link</a>
+	<a href={resolve('/blog?article=' + link)} class="text-purple-700">read</a>
 </div>
