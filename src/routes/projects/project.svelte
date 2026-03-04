@@ -10,6 +10,6 @@
 	<p class="mb-2 text-purple-400">
 		{desc}
 	</p>
-	<p class="mb-1 text-xs text-mauve-800">{info}</p>
+	<p class="mb-1 text-xs text-mauve-500">{info}</p>
 	<a href={link} target="_blank" class="text-purple-700">{title}</a>
 </div>

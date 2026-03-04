@@ -33,7 +33,7 @@
 
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="text-lg text-purple-400">
-        my current tech stack is neovim + opencode on my laptop, and IDLE + vscode/opencode on my desktop. I usually deploy apps with sveltekit + firebase.
+        my current tech stack is neovim (btw) + opencode on my laptop, and IDLE + vscode/opencode on my desktop. I usually deploy apps with sveltekit + firebase.
 			</p>
 		</div>
 		<div class="border-l-2 border-purple-700 pl-6">
