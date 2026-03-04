@@ -12,7 +12,7 @@
 
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="text-lg text-purple-400">
-				i am self taught in programming, and most recently have gotten into webdev (not react).
+				i am self taught in programming, first learning python at 13 and most recently have gotten into webdev (not react).
 			</p>
 		</div>
 
@@ -33,6 +33,11 @@
 
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="text-lg text-purple-400">
+        my current tech stack is neovim + opencode on my laptop, and IDLE + vscode/opencode on my desktop. I usually deploy apps with sveltekit + firebase.
+			</p>
+		</div>
+		<div class="border-l-2 border-purple-700 pl-6">
+			<p class="text-lg text-purple-400">
 				i am <a href="https://www.16personalities.com/" class="text-purple-700" target="_blank"
 					>INTJ</a
 				>, relatively bearish on AI, 22.5
@@ -47,9 +52,9 @@
 			<Skill skill="C"></Skill>
 			<Skill skill="Embedded Systems/Microcontrollers"></Skill>
 			<Skill skill="Typescript"></Skill>
+			<Skill skill="Calculus"></Skill>
 			<Skill skill="Machine Learning"></Skill>
 			<Skill skill="SvelteKit"></Skill>
-			<Skill skill="Math"></Skill>
 			<Skill skill="Bench Press"></Skill>
 			<Skill skill="Deadlift"></Skill>
 		</div>
