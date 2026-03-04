@@ -1,13 +1,12 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/hxh.png';
 	import { resolve } from '$app/paths';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={resolve('/favicon.png')} />
 </svelte:head>
 
 <header class="border-b border-purple-900 bg-black py-4">
