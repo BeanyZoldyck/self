@@ -5,7 +5,9 @@
 	let { children } = $props();
 </script>
 
-<svelte:head></svelte:head>
+<svelte:head>
+	<title>WEBSITE</title>
+</svelte:head>
 
 <header class="border-b border-purple-900 bg-black py-4">
 	<nav class="mx-auto flex max-w-4xl items-center justify-between px-6">
