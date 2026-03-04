@@ -11,5 +11,5 @@
 	<p class="mb-2 text-purple-400">
 		{desc}
 	</p>
-	<a href={resolve('/blog?article=' + link)} class="text-purple-700">read</a>
+	<a href={resolve('/blog/' + link)} class="text-purple-700">read</a>
 </div>
