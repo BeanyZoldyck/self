@@ -28,6 +28,9 @@
 
 <footer class="mt-12 border-t border-purple-900 py-6">
 	<div class="mx-auto max-w-4xl px-6 text-sm text-purple-500">
-		© {new Date().getFullYear()} — built with <span class="text-purple-400">SvelteKit</span>
+		© {new Date().getFullYear()} — built with
+		<span class="text-purple-400"
+			><a href="https://svelte.dev/docs/kit/introduction" target="_blank">SvelteKit</a></span
+		>
 	</div>
 </footer>
