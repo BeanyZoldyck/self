@@ -21,7 +21,7 @@
 
 	<div class="space-y-8">
 		{#each blogs as blog}
-			<Blog title={blog.title} desc={blog.desc} link={blog.link}></Blog>
+			<Blog {blog}></Blog>
 		{/each}
 	</div>
 </section>

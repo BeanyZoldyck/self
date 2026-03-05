@@ -1,18 +1,16 @@
 
 <script>
-  export let link;
-  export let name;
-  export let svg;
+  let {contact} = $props();
 </script>
 				<div class="group relative mr-0">
 					<a
-						href={link}
+						href={contact.link}
 						target="_blank"
 						class=" text-purple-300 hover:text-purple-200"
-						title={name}
+						title={contact.name}
 					>
-    {name}
-								{@html svg}
+    {contact.name}
+								{@html contact.svg}
 						</a
 					>
 				</div>
