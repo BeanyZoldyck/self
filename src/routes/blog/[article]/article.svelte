@@ -3,6 +3,7 @@
 	let content = $state('');
 	import site from './site.txt?raw';
 	const { article } = $props();
+	// svelte-ignore state_referenced_locally
 	switch (article.link) {
 		case 'site':
 			content = site;
@@ -18,6 +19,10 @@
 		dt[1] = dt[1].split('.')[0];
 		return dt.join(' @ ');
 	}
+
+	function showTime(time: number) {
+		alert('In your time: ' + new Date(time).toLocaleString());
+	}
 </script>
 
 <section class="py-20">
@@ -25,8 +30,26 @@
 
 	<div class="space-y-6">
 		<div class="inline-flex">
-			<p class="border-l-2 pl-3 text-xs text-mauve-500">created {showDate(article.created)}</p>
-			<p class="ml-3 border-l-2 pl-3 text-xs text-mauve-500">edited {showDate(article.edited)}</p>
+			<p class="border-l-2 pl-3 text-xs text-mauve-500">
+				<button
+					class="cursor-pointer"
+					onclick={() => {
+						showTime(article.created);
+					}}
+				>
+					created {showDate(article.created)}</button
+				>
+			</p>
+			<p class="tooltip ml-3 border-l-2 pl-3 text-xs text-mauve-500">
+				<button
+					class="cursor-pointer"
+					onclick={() => {
+						showTime(article.edited);
+					}}
+				>
+					edited {showDate(article.edited)}</button
+				>
+			</p>
 		</div>
 		<div class="border-l-2 border-purple-800 pl-6">
 			<p class="text-lg text-purple-600">{article.header}</p>
