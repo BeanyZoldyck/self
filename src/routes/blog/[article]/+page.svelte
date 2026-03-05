@@ -6,12 +6,16 @@
 		link: string;
 		title: string;
 		header: string;
+		created: number;
+		edited: number;
 	}
 	const articles: Array<ArticleData> = [
 		{
 			link: 'site',
 			title: 'personal site',
-			header: 'took me long enough'
+			header: 'took me long enough',
+			created: 1772583770851,
+			edited: Date.now()
 		}
 	];
 	function getArticle(ref: string): ArticleData {
@@ -21,7 +25,9 @@
 		return {
 			link: 'none',
 			title: 'Article not found!',
-			header: 'just go back to blogs using the button below'
+			header: 'just go back to blogs using the button below',
+			created: 0,
+			edited: Date.now()
 		};
 	}
 </script>
