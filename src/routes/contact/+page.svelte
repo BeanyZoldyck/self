@@ -99,7 +99,7 @@
 
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="mb-4 text-lg text-purple-400">find me online:</p>
-			<div class="grid grid-cols-2 space-y-4">
+			<div class="grid w-100 grid-cols-2 space-y-4">
 				{#each contacts.sort(() => Math.random() - 0.5) as contact}
 					<!-- content here -->
 					<Contact {contact}></Contact>
