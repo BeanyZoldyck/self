@@ -1,7 +1,12 @@
-<script>
+<script lang="ts">
 	import { resolve } from '$app/paths';
 	import Link from './link.svelte';
-	let things = ['about', 'blog', 'contact', 'projects'];
+	let things: Array<'about' | 'contact' | 'blog' | 'projects'> = [
+		'about',
+		'blog',
+		'contact',
+		'projects'
+	];
 </script>
 
 <section class="py-20">

@@ -51,8 +51,7 @@
 
 	<div class="space-y-8">
 		{#each projects.sort(() => Math.random() - 0.5) as project}
-			<Project title={project.title} info={project.info} desc={project.desc} link={project.link}
-			></Project>
+			<Project {project}></Project>
 		{/each}
 	</div>
 </section>
