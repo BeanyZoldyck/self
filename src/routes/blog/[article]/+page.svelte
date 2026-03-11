@@ -15,7 +15,7 @@
 			title: 'personal site',
 			header: 'took me long enough',
 			created: 1772583770851,
-			edited: Date.now()
+			edited: 1772718227084
 		}
 	];
 	function getArticle(ref: string): ArticleData {
