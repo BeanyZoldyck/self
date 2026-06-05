@@ -19,9 +19,19 @@
 			, typically in lowercase
 		</p>
 	</div>
-	<div class="flex gap-4">
+	<div class="flex gap-4 col w-4 row">
 		{#each things.sort(() => Math.random() - 0.5) as thing}
-			<Link {thing}></Link>
+			<Link {thing} ></Link>
 		{/each}
 	</div>
 </section>
+
+<style>
+  @media (max-width: 880px) {
+	
+	.row {
+		display: grid;
+	}
+
+}
+</style>
