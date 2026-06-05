@@ -7,6 +7,7 @@
 		'contact',
 		'projects'
 	];
+  let intros: Array<string> = ['intermittent things doer', "*not* a frontend dev..."]
 </script>
 
 <section class="py-20">
@@ -14,7 +15,7 @@
 		hi, i'm <span class="text-purple-200">chuka</span>
 	</h1>
 	<div class="inline-flex">
-		<p class="mb-8 text-xl text-purple-400 md:text-2xl">i do things sometimes</p>
+		<p class="mb-8 text-xl text-purple-400 md:text-2xl">{intros.sort(() => Math.random() - 0.5)[0]}</p>
 		<p class="mb-8 text-xl text-black hover:text-purple-400 md:text-2xl">
 			, typically in lowercase
 		</p>
