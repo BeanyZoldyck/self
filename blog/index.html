@@ -1,33 +1,4 @@
 <!doctype html>
-<script>
-	const starsWrapper = document.querySelector('body');
-	const stars = new Array(200).fill(0).map(() => {
-		const star = document.createElement('div');
-		starsWrapper.append(star);
-
-		return {
-			star,
-			x: Math.random() * window.innerWidth,
-			y: Math.random() * window.innerHeight,
-			r: Math.random() * 2
-		};
-	});
-
-	function update() {
-		stars.forEach((star) => {
-			star.x += star.r;
-			if (star.x > window.innerWidth) {
-				star.x = 0;
-			}
-
-			star.star.style.transform = `translate(${star.x}px, ${star.y}px) scale(${star.r})`;
-			star.star.style.opacity = `${star.r / 2}`;
-		});
-		requestAnimationFrame(update);
-	}
-
-	requestAnimationFrame(update);
-</script>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -42,24 +13,24 @@
 			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link href="../_app/immutable/entry/start.Bsatq4n8.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/HSTXQXjw.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/CsXC-Wmd.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/DQzA2oLv.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/D8Ny2l4R.js" rel="modulepreload">
-		<link href="../_app/immutable/entry/app.Dlhvzqgs.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/CTSxMT34.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/iy-4w3dc.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/DRCsN8Vg.js" rel="modulepreload">
-		<link href="../_app/immutable/nodes/0.yCp8oJdn.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/BtdgzGl5.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/Cao8SUhC.js" rel="modulepreload">
-		<link href="../_app/immutable/nodes/4.DQMqVGWF.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/zqgr6czI.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/C7NFk7vc.js" rel="modulepreload">
-		<link href="../_app/immutable/chunks/e6Cmp4Kg.js" rel="modulepreload">
+		<link href="../_app/immutable/entry/start.CcPoz7xo.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Bsf6xLgQ.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/CyyMX-IV.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/D4yQleBg.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/D6khYOQ3.js" rel="modulepreload">
+		<link href="../_app/immutable/entry/app.Cpi6Mhqf.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/CZ22i52G.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/C9etw3EV.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/B_r8k2Pu.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/0.OGJVg0x0.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/BayGFoQk.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Dp1g9c93.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/4.Dd-CULXU.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/D49jPDDy.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Ck3rTxnK.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/SoxC9Sr_.js" rel="modulepreload">
 		<!--12qhfyh--><!----><title>WEBSITE</title>
-		<link href="../_app/immutable/assets/0.D0NkQUZz.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/0.DOD9NzAv.css" rel="stylesheet">
 	</head>
 	<body
 		data-sveltekit-preload-data="hover"
@@ -70,7 +41,7 @@
 			
 			<script>
 				{
-					__sveltekit_rrmd25 = {
+					__sveltekit_oavp4l = {
 						base: new URL("..", location).pathname.slice(0, -1),
 						assets: "/sveltekit-github-pages"
 					};
@@ -78,8 +49,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("../_app/immutable/entry/start.Bsatq4n8.js"),
-						import("../_app/immutable/entry/app.Dlhvzqgs.js")
+						import("../_app/immutable/entry/start.CcPoz7xo.js"),
+						import("../_app/immutable/entry/app.Cpi6Mhqf.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 4],
