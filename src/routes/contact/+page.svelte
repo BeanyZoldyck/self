@@ -42,23 +42,9 @@
 		{
 			name: 'twitter',
 			link: 'https://x.com/chuka_ze',
-			svg: `<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="70px"
-						height="70px"
-						viewBox="0 0 48 48"
-						stroke="currentColor"
-						><path
-							class="a"
-							d="M40.5,42.5H7.5a2,2,0,0,1-2-2V7.5a2,2,0,0,1,2-2h33a2,2,0,0,1,2,2v33A2,2,0,0,1,40.5,42.5Z"
-						/><polyline class="a" points="32.04 19.3 32.04 28.7 36.74 28.7" /><polyline
-							class="a"
-							points="11.26 28.69 11.26 19.3 15.96 28.7 20.66 19.32 20.66 28.7"
-						/><line class="a" x1="28.4" y1="25.55" x2="24.3" y2="25.55" /><polyline
-							class="a"
-							points="23.24 28.7 26.35 19.3 29.46 28.7"
-						/></svg
-					>`
+			svg: `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg>`
 		},
 		{
 			name: 'devpost',
@@ -77,7 +63,7 @@
 			<p class="mb-2 text-lg text-purple-400">feel free to reach out:</p>
 			<Contact
 				contact={{
-					link: '/email',//wait I'm hilarious
+					link: 'https://beanyzoldyck.github.io/self/email',//wait I'm hilarious
 					name: 'email',
 					svg: `<svg
 					fill="none"
