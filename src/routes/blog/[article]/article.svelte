@@ -2,10 +2,15 @@
 	import { resolve } from '$app/paths';
 	let content = $state('');
 	import site from './site.txt?raw';
+	import SF from './SF.txt?raw';
 	const { article } = $props();
 	// svelte-ignore state_referenced_locally
 	switch (article.link) {
 		case 'site':
+			content = site;
+			break;
+
+		case 'SF':
 			content = site;
 			break;
 
