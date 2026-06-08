@@ -9,9 +9,9 @@ else:
 with open(file) as f:
     content = f.read()
 
-content_parsed = content.replace("\\n\n","\\n")
-content_final = content_parsed.replace("\\n","\n")
+content_parsed = content.replace("\\n\n","\n")
+content_final = content_parsed.replace("\n","\\n\n")
 
-with open(file.replace('.','_test.'), 'w') as g:
+with open(file, 'w') as g:
     g.write(content_final)
 
