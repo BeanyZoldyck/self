@@ -3,6 +3,7 @@
 	let content = $state('');
 	import site from './site.txt?raw';
 	import SF from './SF.txt?raw';
+	import bearhacks from './bearhacks.txt?raw';
 	const { article } = $props();
 	// svelte-ignore state_referenced_locally
 	switch (article.link) {
@@ -14,6 +15,9 @@
 			content = SF;
 			break;
 
+		case 'bearhacks':
+			content = bearhacks;
+			break;
 		default:
 			content = '';
 			break;

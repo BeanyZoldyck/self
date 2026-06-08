@@ -18,12 +18,20 @@
 			edited: 1772718227084
 		},
 		{
+			link: 'bearhacks',
+			title: 'chuka - caffeine = fraud?',
+			header: 'hype moments and aura was not enough to bring back a win',
+			created: 1780889081910,
+			edited: 1780889081910
+		},
+		{
 			link: 'SF',
 			title: 'fist time in SF',
 			header: 'got citymogged so hard I wrote this on the flight back',
 			created: 1780889081910,
 			edited: 1780889081910
-		}
+		},
+
 	];
 	function getArticle(ref: string): ArticleData {
 		for (const article of articles) {

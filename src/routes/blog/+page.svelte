@@ -15,6 +15,13 @@
 		},
 
 		{
+			title: 'BearHacks 2026',
+			desc: 'first hackathon loss of 2026...',
+			link: 'bearhacks'
+		}
+    ,
+
+		{
 			title: 'first time in San Francisco',
 			desc: 'first of many hopefully',
 			link: 'SF'
