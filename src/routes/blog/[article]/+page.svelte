@@ -21,8 +21,8 @@
 			link: 'bearhacks',
 			title: 'chuka - caffeine = fraud?',
 			header: 'hype moments and aura was not enough to bring back a win',
-			created: 1780889081910,
-			edited: 1780889081910
+			created: 1778300412388,
+			edited: 1778300412388
 		},
 		{
 			link: 'SF',
