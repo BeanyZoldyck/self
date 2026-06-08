@@ -20,7 +20,7 @@
 		{
 			link: 'SF',
 			title: 'fist time in SF',
-			header: 'got filtered so hard I wrote this on the flight back',
+			header: 'got citymogged so hard I wrote this on the flight back',
 			created: 1780889081910,
 			edited: 1780889081910
 		}

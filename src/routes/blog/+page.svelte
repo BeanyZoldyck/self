@@ -12,6 +12,12 @@
 			title: 'finally got around to making a personal site',
 			desc: 'dont know how someone with an ego my size took this long',
 			link: 'site'
+		},
+
+		{
+			title: 'first time in San Francisco',
+			desc: 'first of many hopefully',
+			link: 'SF'
 		}
 	];
 </script>
@@ -20,7 +26,8 @@
 	<h1 class="mb-8 text-4xl font-bold text-purple-300">blog</h1>
 
 	<div class="space-y-8">
-		{#each blogs as blog}
+		{#each blogs.reverse()
+		as blog}
 			<Blog {blog}></Blog>
 		{/each}
 	</div>

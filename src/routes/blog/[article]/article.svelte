@@ -11,7 +11,7 @@
 			break;
 
 		case 'SF':
-			content = site;
+			content = SF;
 			break;
 
 		default:
