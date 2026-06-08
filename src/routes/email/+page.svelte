@@ -1,0 +1,15 @@
+<script>
+</script>
+
+<section class="py-20">
+	<h1 class="mb-8 text-4xl font-bold text-purple-300">email</h1>
+
+	<div class="space-y-6">
+		<div class="border-l-2 border-purple-700 pl-6">
+			<p class="text-lg text-purple-400">sorry for the longwinded nature, I'm irrationally scared of bots</p>
+		</div>
+
+		<div class="border-l-2 border-purple-700 pl-6">
+			<p class="text-lg text-purple-200">My email is the first letter of my first name, my last name, at umich.edu :)</p>
+		</div>
+</section>
