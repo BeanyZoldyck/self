@@ -1,4 +1,5 @@
 <script>
+	import { resolve } from '$app/paths';
 </script>
 
 <section class="py-20">
@@ -12,4 +13,8 @@
 		<div class="border-l-2 border-purple-700 pl-6">
 			<p class="text-lg text-purple-200">My email is the first letter of my first name, my last name, at umich.edu :)</p>
 		</div>
+	<div class="mt-15 border-l-2 border-purple-900 pl-6">
+		<a class="text-lg text-purple-800" href={resolve('/contact')}> ← back</a>
+	</div>
 </section>
+

@@ -77,9 +77,22 @@
 			<p class="mb-2 text-lg text-purple-400">feel free to reach out:</p>
 			<Contact
 				contact={{
-					link: '',//wait I'm hilarious
+					link: '/email',//wait I'm hilarious
 					name: 'email',
-					svg: ``
+					svg: `<svg
+					fill="none"
+					stroke="currentColor"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="1.5"
+					shape-rendering="geometricPrecision"
+					viewBox="0 0 24 24"
+					height="40"
+					width="40"
+					style="color: currentcolor;"
+					><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+					></path><path d="M22 6l-10 7L2 6"></path></svg
+				>`
 				}}
 			></Contact>
 		</div>

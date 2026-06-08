@@ -5,7 +5,7 @@
 				<div class="group relative mr-0">
 					<a
 						href={contact.link}
-						target="_blank"
+						target={contact.link.includes('email') ? "":"_blank" }
 						class=" text-purple-300 hover:text-purple-200"
 						title={contact.name}
 					>
