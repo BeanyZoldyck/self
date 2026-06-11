@@ -63,6 +63,8 @@
 					>glm 5.1</a
 				>, <a href="https://openai.com/index/introducing-gpt-5-3-codex/" class="text-purple-700" target="_blank"
 					>gpt5.3-codex</a
+				>, and <a href="https://deepmind.google/models/gemma/gemma-4/" class="text-purple-700" target="_blank"
+					>gemma4</a
 				>.			</p>
 		</div>
 		<h2 class="mt-12 mb-6 text-2xl font-bold text-purple-300">passions</h2>
